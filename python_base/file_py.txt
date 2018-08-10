@@ -1,0 +1,33 @@
+file_py.txt
+a = open(,)
+			a.read(size=-1)			s = f.read(2)
+			a.readline(size=-1)		s = f.readline()
+			a.readlines(hint=-1)	s = f.readlines()		
+			------
+			a.write(s)				f.write("")
+			a.writelines(lines)		ls=["","",""]	f.writelines(ls)
+			a.seek(offset)			f.seek(0) 0-head 1-now 2-end
+a.close()
+
+a = open("D:/PYE/f.txt") a = open("D:\\PYE\\f.txt")	D:\PYE\f.txt
+r FileNotFoundError
+w write
+x FileExistsError
+a add
+b 01
+t txt
++ r/w/x/a 
+
+txt = f.read()
+#do something
+
+txt = f.read(2)
+while txt != "":
+	# do something
+	txt = f.read(2)
+
+for line in f.readlines():
+	print(line)
+
+for line in f:
+	print(line)

@@ -1,0 +1,41 @@
+if <case> :
+	ture_block
+else :
+	false_block
+
+<ture_block> if <case> else <false_block>
+print("guess{}".format("ture" if guess==99 else "false"))
+
+x and y
+a or y
+not x
+
+try:
+	block1
+except <case>:
+	block2
+else:
+	//if don't go to except run else
+	block1_1
+finally:
+	block_finally
+
+height,weight=eval(input("please input height(m) and weight(kg)[180,90]:"))
+
+for i in range(N)
+for i in range(M,N,K)
+for char in string
+for item in [123,"python",456]
+for line in file
+...
+
+while
+break
+continue 
+
+//if don't go to break run else
+for < > in < > :
+else:
+
+while < > :
+else:

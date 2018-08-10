@@ -1,0 +1,16 @@
+pypi.org
+PyPI
+python Package Index
+1:pip安装	
+	pip -h							帮助
+	pip install <第三方库名>			安装
+	pip install -U	<第三方库名>		更新
+	pip uninstall <第三方库名>		卸载
+	pip download <第三方库名>			下载（不安装）
+	pip show <第三方库名>				库详细信息
+	pip srearch <关键词>				在介绍信息中搜索
+	pip list						已经安装的第三方库
+2:含有800+的数据处理第三方库
+	Anaconda	https://www.continuum.io
+3:下载的库文件需要编译
+	UCI页面		http://www.lfd.uci.edu/~gohlke/pythonlibs/

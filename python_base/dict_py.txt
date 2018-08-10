@@ -1,0 +1,14 @@
+{} dict()
+d={K1:V1,K2:V2}
+d[K1]=V1
+de={}
+del d[K]
+K in d
+d.keys()
+d.values()
+d.items()
+d.get(K,<default>) if have return V ,don't have return default
+d.pop(K,<default>)
+d.popitem()
+d.clear()
+len(d)

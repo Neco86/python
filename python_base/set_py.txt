@@ -1,0 +1,26 @@
+{} set()
+A={"python",123,("python",123)}
+	{123,"python",("python",123)}
+B=set("pypy123")
+	{'1','p','2','3','y'}
+C={"python",123,"python",123}
+	{"python",123}
+D=set()			only set()
+| - & ^ 
+> >= < <=
+|= -= &= ^=
+S.add(x)		add
+S.discard(x)	delete	if S don't have,no wrong
+S.remove(x)		delete 	if S don't have,KeyError
+S.clear()
+S.pop()			random pop one and fresh S,if S is Empty KeyError
+				try:
+					while True:
+						print(A.pop(),end="")
+				except:
+					pass
+S.copy()
+len(S)
+x in S
+x not in S
+set(x)			ls=['p','p','y','y',123]	s=set(ls)={'p','y',123} list(s)=['p','y',123]

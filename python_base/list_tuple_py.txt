@@ -1,0 +1,32 @@
+x in s
+x not in s
+s+t
+s*n n*s
+s[i]
+s[s:j] 
+s[s:j:k]
+ls=["python",123,".io"]	ls[::-1]=[".io",123,"python"]
+len(s)
+min(s)
+max(s)
+s.index(x)
+s.index(x,i,j)
+s.count(x)
+
+() tuple() can't change,can don't use ()
+
+[] list()
+ls[i]=x
+ls[i:j:k]=lt
+del ls[i]
+del ls[i:j:k]
+ls+=lt
+ls*=n
+ls.append(x)
+ls.clear()
+ls.copy()
+ls.insert(i,x)
+ls.pop(i)
+ls.remove(x)
+ls.reverse()
+ls.index(x)

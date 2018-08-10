@@ -1,0 +1,6 @@
+jieba
+pip install jieba
+jieba.lcut(s)
+jieba.lcut(s,cut_all=Ture)
+jieba.lcut_for_search(s)
+jieba.add_world(w)

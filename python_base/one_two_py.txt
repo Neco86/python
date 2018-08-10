@@ -1,0 +1,31 @@
+one:
+	read:
+		f=open(fname)
+		txt=f.read()
+		ls=txt.split()
+		f.close()
+	write:
+		ls=["","",""]
+		f=open(fname,"w")
+		f.write(' '.join(ls))
+		f.close()
+two:
+	CSV:comma-Separated Valus
+	*.csv
+	每行一个一维数据，数据间逗号间隔，无空行
+	Excel可以导入和导出
+	ls[行][列]
+
+	read:
+		f=open(fname)
+		ls=[]
+		for line in f:
+			line=line.replace("\n","")
+			ls.append(line.spilt(","))
+		f.close()
+	write:
+		ls=[[],[],[]]
+		f=open(fname,"w")
+		for item in ls:
+			fwrite(",",join(item)+'\n')
+		f.close()

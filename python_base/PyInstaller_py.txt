@@ -1,0 +1,8 @@
+PyInstaller
+pip install pyinstaller
+pyinstaller -F *.py
+-h help
+--clean
+-D --onedir
+-F --onefile
+-i <*.ico>

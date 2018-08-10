@@ -1,0 +1,33 @@
+def fact(n,m=1):
+	return n/m
+fact(10)
+fact(10,5) fact(m=5,n=10)
+
+def fact(n,*b):
+	i=n
+	for item in b:
+	i+=item
+	return i
+fact(10,3)
+fact(10,1,2,3)
+
+def fact():
+	a,b,c=1,2,3
+	return a,b,c
+fact() (1,2,3)
+
+n=100
+def fact():
+	global n
+	return n-1
+
+ls=[1,2,3]					ls=[1,2,3]
+def func():					def func():
+	ls.append(4)				ls=[]
+	return						ls.append(4)
+func()							return
+print(ls) [1,2,3,4]			func()
+							print(ls) [1,2,3]
+
+func = lambda n,m : n / m
+func(10,5)

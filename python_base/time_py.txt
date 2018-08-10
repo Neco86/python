@@ -1,0 +1,30 @@
+from time import *
+
+time() 1516939876.6022282 1970-01-01~now (s)
+ctime() "Fri Jan 26 12:11:16 2018"
+gmtime() time.struct_time(tm_year=2018,tm_mon=1,tm_mady=26,tm_hour=4,tm_min=11,tm_sec=16,tm_wday=4,tm_yday=26,tm_isdst=0)
+
+t=time.gmtime()
+strftime("%Y-%m-%d %H:%M:%S",t) '2018-01-26 12:55:20'
+%Y year 0000~9999
+%m month 01~12
+%B month January~December
+%b month Jan~Dec
+%d day 01-31
+%A Monday~Sunday
+%a Mon~Sun
+%H 24-hour 00-23
+%h 12-hour 01-12
+%p AM,PM
+%M minute 00~59
+%S second 00-59
+
+timeStr='2018-01-26 12:55:20'
+strptime(timeStr,"%Y-%m-%d %H:%M:%S")
+time.struct_time(tm_year=2018,tm_mon=1,tm_mady=26,tm_hour=4,tm_min=11,tm_sec=16,tm_wday=4,tm_yday=26,tm_isdst=0)
+
+start=perf_counter()	318.66599499718114
+end=perf_counter()		341.3905185375658
+end-start				22.724523540384666
+
+time.sleep(3.14)
